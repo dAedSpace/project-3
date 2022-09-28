@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>HOME</title>
+  </head>
+  <body>
+    <header>
+      <a href="#" class="logo">JOSEPH O'BOYLE</a>
+      <ul class="navigation">
+        <li><a href="#" class="active">Home</a></li>
+        <li><a
+            href="C:\Users\tmari\OneDrive\Documents\1\HTML\project1\about\index.html">About</a></li>
+        <li><a href="#">Projects</a></li>
+        <li><a
+            href="C:\Users\tmari\OneDrive\Documents\1\HTML\project1\contact\index.html">Contact</a></li>
+      </ul>
+    </header>
+    <section class="parallax">
+      <h2 id="text">Web Developer</h2>
+      <img src="pics/monutain_01.png" id="m1">
+      <img src="pics/trees_02.png" id="t2">
+      <img src="pics/monutain_02.png" id="m2">
+      <img src="pics/trees_02.png" id="t1">
+      <img src="pics/man.png" id="man">
+      <img src="pics/plants.png" id="plants">
+    </section>
+    <section class="sec">
+      <h2 class="vet">HELLO WORLD</h2>
+
+
+      <P> HEY EVERYBODY!!!! <br><br> Welcome to my website. <br>Please feel free
+        to take a look around.
+        <br>This website is a reflection of me and my life, <br> so whoever you
+        are looking at my page right now i hope
+        you enjoy. THANK YOU!!
+
+
+      </p>
+    </section>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.1/gsap.min.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.1/ScrollTrigger.min.js"></script>
+    <script>
+        gsap.from("#m1",{
+          scrollTrigger : {
+            scrub: true
+          },
+          y: 100,
+        })
+        gsap.from("#m2",{
+          scrollTrigger : {
+            scrub: true
+          },
+          y:50,
+        })
+        gsap.from("#t2",{
+          scrollTrigger : {
+            scrub: true
+          },
+          x: -50,
+        })
+        gsap.from("#t1",{
+          scrollTrigger : {
+            scrub: true
+          },
+          x: -50,
+        })
+        gsap.from("#man",{
+          scrollTrigger : {
+            scrub: true
+          },
+          x: -250,
+        })
+        gsap.from("#text",{
+          scrollTrigger : {
+            scrub: true
+          },
+          x: 250,
+        })
+       
+        
+       
+      </script>
+  </body>
+</html>
